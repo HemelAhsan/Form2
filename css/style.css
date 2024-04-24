@@ -1,0 +1,120 @@
+/*font-variant caps means capaitalizing every letter with enlarging the first letter,*/
+/* 1em=16 px*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+font-family: "Montserrat", sans-serif;}
+
+.container{width: 1200px;
+margin: 0 auto;
+overflow: hidden;}
+
+img{max-width: 100%;
+display: block;}
+
+a{text-decoration: none;
+  display: inline-block;}
+
+li{list-style: none;}
+
+body{}
+
+
+header{background-color: #5CBAFF;
+       position: fixed;
+       width: 100%;
+       box-shadow: 0 2px 2px #5CBAFF;}
+header nav{}
+header nav ul{display: flex;
+              justify-content: center;
+              align-items: center;}
+header nav ul li{padding: 10px 10px;}
+header nav ul li img{max-width: 120px;}
+header nav ul li a{color: white;
+                   font-size: 10px;
+                   text-transform:uppercase;
+                   padding: 10px 10px;
+                   cursor: pointer;
+                   transition: all 0.4s ease;
+                   -webkit-transition: all 0.4s ease;
+                   -moz-transition: all 0.4s ease;}
+header nav ul li a:hover{background-color: #1ED760;}
+header nav ul li a:focus{background-color: #1ED760;}
+
+
+.form-section{background: url(../images/background.jpg);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;}
+.form-section .flex{display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    height: 100vh;}
+.form-section .flex .form-background{max-width: 40%;
+                                     flex: 0 0 40%;
+                                     height: 100vh;}
+.form-section .flex .form-background img{}
+
+.form-section .flex .form-content{background-color: #0093FF;
+                                  max-width: 60%;
+                                  flex: 0 0 60%;
+                                  height: 100vh;
+                                  align-items: center;}
+.form-section .flex .form-content .flex{}
+.form-section .flex .form-content .flex form{width: 350px;
+                                             padding-top: 50px;}
+.form-section .flex .form-content .flex form h1{color: white;
+                                                font-size: 20px;
+                                                font-weight: 500;}
+.form-section .flex .form-content .flex form p{color: white;
+                                               font-size: 14px;
+                                               margin-top: 15px;
+                                               margin-bottom: 20px;}
+.form-section .flex .form-content .flex form h4{color: white;
+                                                font-size: 15px;
+                                                text-transform: capitalize;
+                                                margin-bottom: 5px;
+                                                font-weight: 500;}
+.form-section .flex .form-content .flex form input{color: black;
+                                                   font-size: 10px;
+                                                   border: 0;
+                                                   border-radius: 2px;
+                                                   padding: 5px 5px;
+                                                   margin: 5px 0;
+                                                   width: 300px;
+                                                   outline: none;
+                                                   text-transform: capitalize;}
+.form-section .flex .form-content .flex form input[type="submit"]{color: #0093FF;
+                                                                  text-align: Left;
+                                                                  text-transform: capitalize;
+                                                                  width: 80px;
+                                                                  cursor: pointer;
+                                                                  transition: all 0.4s ease;
+                                                                  -webkit-transition: all 0.4s ease;
+                                                                  -moz-transition: all 0.4s ease;}
+.form-section .flex .form-content .flex form input[type="submit"]:hover{color: black;}
+.form-section .flex .form-content .flex form input[type="submit"]:focus{color: black;}
+.form-section .flex .form-content .flex form ul{margin-top: 30px;}        
+.form-section .flex .form-content .flex form ul li{display: inline-block;
+                                                   color: white;
+                                                   font-size: 10px;
+                                                   padding-right: 10px;
+                                                   padding-left: 0;
+                                                   padding-top: 0;
+                                                   padding-bottom: 0;
+                                                   margin-left: 0;}
+.form-section .flex .form-content .flex form ul li a{color: white;
+                                                     font-size: 12px;
+                                                     text-transform: capitalize;
+                                                     cursor: pointer;
+                                                     transition: all 0.4s ease;
+                                                     -webkit-transition: all 0.4s ease;
+                                                     -moz-transition: all 0.4s ease;}
+.form-section .flex .form-content .flex form ul li a:hover{text-shadow: 4px 2px 5px white;}
+.form-section .flex .form-content .flex form ul li a:focus{color: black;}                                  
